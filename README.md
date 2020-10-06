@@ -2,17 +2,17 @@
 
 ## 簡易流程
 安裝 npm,yarn,create-react-app --><br>
-開啟終端機 cd 專案檔案 `create-react-app 專案名(ex:我是新專案)` --><br>
+開啟終端機 cd 專案檔案 `create-react-app 專案名` --><br>
 `npm start` 或 `yarn start` 確認完成無錯誤 --><br>
 github建新專案 --><br>
-再次開啟終端機 cd 我是新專案 `npm gh-pages` 或 `yarn add gh-pages` --><br>
+再次開啟終端機 cd 專案 `npm gh-pages` 或 `yarn add gh-pages` --><br>
 終端機`git add .` `git commit -m '敘述'` 
-`git remote add origin github專案.git`
+`git remote add origin github專案.git`<br>
 `git branch -M main`
 `git push -u origin main` --><br>
 至github專案settings的Github Pages 改Source後，複製Github Pages網址--><br>
 編輯器開react專案的package.json新增
-`"homepage": "Github Pages網址"`
+`"homepage": "Github Pages網址"`<br>
 `"predeploy":"yarn build"`
 `"deploy":"gh-pages -d build"`
 --><br>
@@ -22,7 +22,7 @@ github建新專案 --><br>
 --><br>
 完成 可以開始code 更新Github Pages依然至終端機`yarn run deploy`
 --><br>
-git 推送依然可以更新main 
+git 推送依然可以更新main <br>
 用`yarn run deploy`更新gh-pages分支
 
 ### 安裝 npm,yarn,create-react-app
