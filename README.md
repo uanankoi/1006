@@ -31,13 +31,13 @@ Yarn 是由 Facebook，Google，Exponent 和 Tilde 構建的新的 JavaScript �
 create-react-app 是建立react開發環境工具<br>
 
 ### 建立專案
-開啟終端機 cd 專案檔案 `create-react-app 專案名(ex:我是新專案)`，完成後開github建新專案<br>
+開啟終端機 cd 專案檔案 `create-react-app 專案名`，完成後開github建新專案<br>
 <img src="https://i.imgur.com/uIDZNO9.png" width="600px"></img>
 <br>
 <img src="https://i.imgur.com/vgapEI2.png" width="600px"></img>
 
 ### 裝gh-pages
-再次開啟終端機 cd 我是新專案 `npm gh-pages` 或 `yarn add gh-pages`<br>
+再次開啟終端機 cd 專案 `npm gh-pages` 或 `yarn add gh-pages`<br>
 終端機`git add .` `git commit -m '敘述'` 
 `git remote add origin github專案.git`
 `git branch -M main`

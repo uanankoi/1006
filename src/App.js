@@ -11,10 +11,10 @@ function App() {
       <h2>簡易流程</h2>
       <p className='text'>  
         安裝 npm,yarn,create-react-app --&#62;<br/>
-        開啟終端機 cd 專案檔案 <span>create-react-app 專案名(ex:我是新專案)</span> --&#62;<br/>
+        開啟終端機 cd 專案檔案 <span>create-react-app 專案名</span> --&#62;<br/>
         <span>npm start</span> 或 <span>yarn start</span> 確認完成無錯誤 --&#62;<br/>
         github建新專案 --&#62;<br/>
-        再次開啟終端機 cd 我是新專案 <span>npm gh-pages</span> 或 <span>yarn add gh-pages</span> --&#62;<br/>
+        再次開啟終端機 cd 專案 <span>npm gh-pages</span> 或 <span>yarn add gh-pages</span> --&#62;<br/>
         終端機<span>git add .</span> <span>git commit -m '敘述'</span><br/> 
         <span>git remote add origin github專案.git</span><br/>
         <span>git branch -M main</span><br/>
