@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          REACT GITHUBPAGES 完成啦!可以code了!
         </p>
         <a
           className="App-link"
